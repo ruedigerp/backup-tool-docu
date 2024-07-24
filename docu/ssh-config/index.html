@@ -167,11 +167,32 @@ drwxr-xr-x  11 rk  staff  352 24 Jul 12:33 ..
 <p>will be copied to the remote computer and saved in the file ~/.ssh/authorized_keys in the home directory, or if the file already exists, the public key will be appended.</p>
 <h2 id="local-config">local config<a class="headerlink" href="#local-config" title="Permanent link">&para;</a></h2>
 <p>To ensure access is performed with the correct user and that further configuration is used appropriately, create an SSH configuration file in the home directory: ~/.ssh/config. If this file already exists, the configuration will be appended. </p>
-<p>| Name | Wert |
-| Server | testweb.example.net |
-| Port   | 22 |
-| User   | backup |
-| SSH-Key | <PATHTOKEY>/backupitall |</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Wert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Server</td>
+<td>testweb.example.net</td>
+</tr>
+<tr>
+<td>Port</td>
+<td>22</td>
+</tr>
+<tr>
+<td>User</td>
+<td>backup</td>
+</tr>
+<tr>
+<td>SSH-Key</td>
+<td><PATHTOKEY>/backupitall</td>
+</tr>
+</tbody>
+</table>
 <blockquote>
 <p>PATHTOKEY example: ~/git/backupitall/backupitall ./backupitall ~/.ssh/backupitall</p>
 </blockquote>
