@@ -108,7 +108,7 @@
         Week 4 Monday copy 4 Weekly Backup
             Week 4 : Monday : Thursday : ... : Saturday : Sunday
 </div>
-<pre><code>gantt
+<div class="mermaid">gantt
     dateFormat  YYYY-MM-DD
     title       Backup Diagram
     excludes    weekends
@@ -135,7 +135,7 @@
     Add to mermaid                      :until isadded
     Functionality added                 :milestone, isadded, 2014-01-25, 0d
 
-</code></pre>
+</div>
 <p>BackupItAll creates a current copy of the source directory when executed. </p>
 <p>Depending on the configuration (Daily, Weekly), the target directory is named by date or weekday (Monday 1, Tuesday 2, ... Sunday 7). </p>
 <p>The target directories and files are created using hard links. Even if the source directory is, for example, 2 GB and the changes from the previous day are only a few MB, the directory will show 2 GB when checking disk usage. </p>
@@ -206,5 +206,5 @@ mermaid.initialize({});</script></body>
 </html>
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-07-24 14:08:35.999398+00:00
+Build Date UTC : 2024-07-24 14:16:04.097422+00:00
 -->
