@@ -1,5 +1,7 @@
 # BackupItAll
 
+2024-07-24
+
 ![BackupItAll](images/IMG_9569.webp)
 
 BackupItAll creates a current copy of the source directory when executed. 
