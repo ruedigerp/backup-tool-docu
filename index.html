@@ -125,7 +125,7 @@
 
 </div>
 <p>BackupItAll creates a current copy of the source directory when executed. </p>
-<p>Depending on the configuration (Daily, Weekly), the target directory is named by date or weekday (Monday 1, Tuesday 2, ... Sunday 7). </p>
+<p>Depending on the <a href="docu/configuration/">configuration</a> (Daily, Weekly), the target directory is named by date or weekday (Monday 1, Tuesday 2, ... Sunday 7). </p>
 <p>The target directories and files are created using hard links. Even if the source directory is, for example, 2 GB and the changes from the previous day are only a few MB, the directory will show 2 GB when checking disk usage. </p>
 <p>However, it contains only the MB of data that has changed. If the backup from the previous day or from one/more days is deleted, these data are still included in the current backup. This approach saves storage space while ensuring all data is included.</p>
 <h2 id="local-or-remote">Local or remote<a class="headerlink" href="#local-or-remote" title="Permanent link">¶</a></h2>
@@ -135,7 +135,7 @@
 <h2 id="encryption">Encryption<a class="headerlink" href="#encryption" title="Permanent link">¶</a></h2>
 <p>Currently, backups are not encrypted. This function will also be available shortly.</p>
 <h2 id="requirements-for-remote-backup-over-ssh">Requirements for remote backup over ssh<a class="headerlink" href="#requirements-for-remote-backup-over-ssh" title="Permanent link">¶</a></h2>
-<p>For backing up data from a remote computer, an SSH key is required, and SSH login must work.</p></div>
+<p>For backing up data from a remote computer, an SSH key is required, and SSH login <a href="docu/ssh-config/">must work</a>.</p></div>
 </div>
 <footer class="col-md-12 text-center">
 <hr/>
@@ -194,5 +194,5 @@ mermaid.initialize({});</script></body>
 </html>
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-07-25 06:39:05.052319+00:00
+Build Date UTC : 2024-07-25 06:41:56.944223+00:00
 -->
