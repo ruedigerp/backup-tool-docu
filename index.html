@@ -115,25 +115,25 @@
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("monday") or "weekends", but not the word "weekdays".)
 
     section First Week
-    Completed task            :done,    des1, 2014-01-06,2014-01-08
-    Active task               :active,  des2, 2014-01-09, 3d
-    Future task               :         des3, after des2, 5d
-    Future task2              :         des4, after des3, 5d
+        Completed task            :done,    des1, 2014-01-06,2014-01-06
+        Active task               :active,  des2, 2014-01-09, 1d
+        Future task               :active,  des3, after des2, 1d
+        Future task2              :         des4, after des3, 1d
 
     section Second Week
-    Copy Monday from 1 Week             :crit, des11a, 2014-01-06,1h
-    Backup Mon                          :crit, des11b, after des1a, 1d
-    Backup Tue                          :crit, des2, after des11b, 1d
-    Backup Wen                          :crit, des3, after des3, 1d
-    Backup Thu                          :crit, des4, after des4, 1d
-    Backup Fri                          :crit, des5, after des5, 1d
-    Backup Sat                          :crit, des6, after des6, 1d
-    Backup Sun                          :crit, des7, after des7, 1d
-    Create tests for parser             :crit, active, 3d
-    Future task in critical line        :crit, 5d
-    Create tests for renderer           :2d
-    Add to mermaid                      :until isadded
-    Functionality added                 :milestone, isadded, 2014-01-25, 0d
+        Copy Monday from 1 Week             :crit, des11a, 2014-01-06,1h
+        Backup Mon                          :crit, des11b, after des1a, 1d
+        Backup Tue                          :crit, des2, after des11b, 1d
+        Backup Wen                          :crit, des3, after des3, 1d
+        Backup Thu                          :crit, des4, after des4, 1d
+        Backup Fri                          :crit, des5, after des5, 1d
+        Backup Sat                          :crit, des6, after des6, 1d
+        Backup Sun                          :crit, des7, after des7, 1d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to mermaid                      :until isadded
+        Functionality added                 :milestone, isadded, 2014-01-25, 0d
 
 </div>
 <p>BackupItAll creates a current copy of the source directory when executed. </p>
@@ -206,5 +206,5 @@ mermaid.initialize({});</script></body>
 </html>
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-07-24 14:25:13.988500+00:00
+Build Date UTC : 2024-07-25 05:56:46.048272+00:00
 -->
