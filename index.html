@@ -114,15 +114,23 @@
     %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("monday") or "weekends", but not the word "weekdays".)
 
     section First Week
-    Backup Mon              :des1, 2024-07-22, 1d
-    Backup Tue              :des2, after des1, 1d
-    Backup Wen              :des3, after des2, 1d
-    Backup Thu              :des4, after des3, 1d
-    Backup Thu              :des5, after des4, 1d
-    Backup Thu              :des6, after des5, 1d
-    Backup Thu              :des7, after des6, 1d
+    Backup Mon              :week11, 2024-07-22, 1d
+    Backup Tue              :week12, after week11, 1d
+    Backup Wen              :week13, after week12, 1d
+    Backup Thu              :week14, after week13, 1d
+    Backup Thu              :week15, after week14, 1d
+    Backup Thu              :week16, after week15, 1d
+    Backup Thu              :week17, after week16, 1d
 
-
+    section Second Week
+    First Weekly Backup     :week20, 2024-07-29
+    Backup Mon              :week21, 2024-07-29, 1d
+    Backup Tue              :week22, after week21, 1d
+    Backup Wen              :week23, after week22, 1d
+    Backup Thu              :week24, after week23, 1d
+    Backup Thu              :week25, after week24, 1d
+    Backup Thu              :week26, after week25, 1d
+    Backup Thu              :week27, after week26, 1d
 
 </div>
 <p>BackupItAll creates a current copy of the source directory when executed. </p>
@@ -195,5 +203,5 @@ mermaid.initialize({});</script></body>
 </html>
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-07-25 06:02:57.062352+00:00
+Build Date UTC : 2024-07-25 06:06:00.956626+00:00
 -->
